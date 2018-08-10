@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="433.0" prefWidth="757.0" styleClass="back" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="piano.two">
+  <children>
+    <ImageView fitHeight="500.0" fitWidth="800.0" layoutX="174.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="file:/C:/Users/ADMIN/Desktop/wallpaper/logo.jpg" />
+      </image>
+    </ImageView>
+    <Label id="label" layoutX="319.0" layoutY="244.0" minHeight="16.0" minWidth="69.0" />
+    <Button id="button" layoutX="61.0" layoutY="214.0" onAction="#one" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="187.0" prefWidth="40.0" text="">
+      <effect>
+        <InnerShadow />
+      </effect>
+      <stylesheets>
+        <URL value="file:/D:/netbeans/Piano/src/piano/MainCss.css" />
+      </stylesheets>
+    </Button>
+    <Button id="button" layoutX="101.0" layoutY="214.0" onAction="#three" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="187.0" prefWidth="40.0" text="">
+      <effect>
+        <InnerShadow />
+      </effect>
+    </Button>
+    <Button id="button" layoutX="141.0" layoutY="214.0" onAction="#five" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="187.0" prefWidth="40.0" text="">
+      <effect>
+        <InnerShadow />
+      </effect>
+    </Button>
+    <Button id="button" layoutX="181.0" layoutY="214.0" onAction="#six" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="187.0" prefWidth="40.0" text="">
+      <effect>
+        <InnerShadow />
+      </effect>
+    </Button>
+    <Button id="button" layoutX="221.0" layoutY="214.0" onAction="#eight" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="187.0" prefWidth="40.0001220703125" text="">
+      <effect>
+        <InnerShadow />
+      </effect>
+    </Button>
+    <Button id="button" layoutX="261.0" layoutY="214.0" onAction="#ten" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="187.0" prefWidth="40.0" text="">
+      <effect>
+        <InnerShadow />
+      </effect>
+    </Button>
+    <Button id="button" layoutX="301.0" layoutY="214.0" onAction="#twelve" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="187.0" prefWidth="40.0" text="">
+      <effect>
+        <InnerShadow />
+      </effect>
+    </Button>
+    <Button id="button" layoutX="341.0" layoutY="214.0" onAction="#thirteen" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="187.0" prefWidth="40.0" text="">
+      <effect>
+        <InnerShadow />
+      </effect>
+    </Button>
+    <Button id="button" layoutX="381.0" layoutY="214.0" onAction="#fifteen" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="187.0" prefWidth="40.0" text="">
+      <effect>
+        <InnerShadow />
+      </effect>
+    </Button>
+    <Button id="button" layoutX="421.0" layoutY="214.0" onAction="#seventeen" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="187.0" prefWidth="40.0" text="">
+      <effect>
+        <InnerShadow />
+      </effect>
+    </Button>
+    <Button id="button" layoutX="461.0" layoutY="214.0" onAction="#eighteen" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="187.0" prefWidth="40.0" text="">
+      <effect>
+        <InnerShadow />
+      </effect>
+    </Button>
+    <Button id="button" layoutX="501.0" layoutY="214.0" onAction="#twenty" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="187.0" prefWidth="40.0" text="">
+      <effect>
+        <InnerShadow />
+      </effect>
+    </Button>
+    <Button id="button" layoutX="541.0" layoutY="214.0" onAction="#twoTwo" onKeyPressed="#keyOne" prefHeight="187.0" prefWidth="40.0" text="">
+      <effect>
+        <InnerShadow />
+      </effect>
+    </Button>
+    <Button id="button" layoutX="581.0" layoutY="214.0" onAction="#twoFour" onKeyPressed="#keyOne" prefHeight="187.0" prefWidth="40.0" text="">
+      <effect>
+        <InnerShadow />
+      </effect>
+    </Button>
+    <Button id="button" layoutX="621.0" layoutY="214.0" prefHeight="187.0" prefWidth="40.0" text="">
+      <effect>
+        <InnerShadow />
+      </effect>
+    </Button>
+    <Button id="Button" layoutX="89.0" layoutY="214.0" onAction="#two" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="117.0" prefWidth="24.0" styleClass="first, id" text="">
+      <effect>
+        <Lighting>
+          <bumpInput>
+            <Shadow />
+          </bumpInput>
+          <light>
+            <javafx.scene.effect.Light.Distant />
+          </light>
+        </Lighting>
+      </effect>
+      <stylesheets>
+        <URL value="file:/D:/netbeans/instrument/src/instrument/main.css" />
+        <URL value="file:/D:/netbeans/Piano/src/piano/MainCss.css" />
+      </stylesheets>
+    </Button>
+    <Button id="button" layoutX="124.0" layoutY="214.0" onAction="#four" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="117.0" prefWidth="24.0" styleClass="first, id" text="">
+      <effect>
+        <Lighting>
+          <bumpInput>
+            <Shadow />
+          </bumpInput>
+          <light>
+            <javafx.scene.effect.Light.Distant />
+          </light>
+        </Lighting>
+      </effect>
+      <stylesheets>
+        <URL value="file:/D:/netbeans/instrument/src/instrument/main.css" />
+        <URL value="file:/D:/netbeans/Piano/src/piano/MainCss.css" />
+      </stylesheets>
+    </Button>
+    <Button id="button" layoutX="209.0" layoutY="214.0" onAction="#seven" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="117.0" prefWidth="24.0" styleClass="first, id" text="">
+      <effect>
+        <Lighting>
+          <bumpInput>
+            <Shadow />
+          </bumpInput>
+          <light>
+            <javafx.scene.effect.Light.Distant />
+          </light>
+        </Lighting>
+      </effect>
+      <stylesheets>
+        <URL value="file:/D:/netbeans/instrument/src/instrument/main.css" />
+        <URL value="file:/D:/netbeans/Piano/src/piano/MainCss.css" />
+      </stylesheets>
+    </Button>
+    <Button id="button" layoutX="250.0" layoutY="214.0" onAction="#nine" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="117.0" prefWidth="24.0" styleClass="first, id" text="">
+      <effect>
+        <Lighting>
+          <bumpInput>
+            <Shadow />
+          </bumpInput>
+          <light>
+            <javafx.scene.effect.Light.Distant />
+          </light>
+        </Lighting>
+      </effect>
+      <stylesheets>
+        <URL value="file:/D:/netbeans/instrument/src/instrument/main.css" />
+        <URL value="file:/D:/netbeans/Piano/src/piano/MainCss.css" />
+      </stylesheets>
+    </Button>
+    <Button id="button" layoutX="289.0" layoutY="214.0" onAction="#eleven" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="117.0" prefWidth="24.0" styleClass="first, id" text="">
+      <effect>
+        <Lighting>
+          <bumpInput>
+            <Shadow />
+          </bumpInput>
+          <light>
+            <javafx.scene.effect.Light.Distant />
+          </light>
+        </Lighting>
+      </effect>
+      <stylesheets>
+        <URL value="file:/D:/netbeans/instrument/src/instrument/main.css" />
+        <URL value="file:/D:/netbeans/Piano/src/piano/MainCss.css" />
+      </stylesheets>
+    </Button>
+    <Button id="button" layoutX="369.0" layoutY="214.0" onAction="#fourteen" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="117.0" prefWidth="24.0" styleClass="first, id" text="">
+      <effect>
+        <Lighting>
+          <bumpInput>
+            <Shadow />
+          </bumpInput>
+          <light>
+            <javafx.scene.effect.Light.Distant />
+          </light>
+        </Lighting>
+      </effect>
+      <stylesheets>
+        <URL value="file:/D:/netbeans/instrument/src/instrument/main.css" />
+        <URL value="file:/D:/netbeans/Piano/src/piano/MainCss.css" />
+      </stylesheets>
+    </Button>
+    <Button id="button" layoutX="407.0" layoutY="214.0" onAction="#sixteen" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="117.0" prefWidth="24.0" styleClass="first, id" text="">
+      <effect>
+        <Lighting>
+          <bumpInput>
+            <Shadow />
+          </bumpInput>
+          <light>
+            <javafx.scene.effect.Light.Distant />
+          </light>
+        </Lighting>
+      </effect>
+      <stylesheets>
+        <URL value="file:/D:/netbeans/instrument/src/instrument/main.css" />
+        <URL value="file:/D:/netbeans/Piano/src/piano/MainCss.css" />
+      </stylesheets>
+    </Button>
+    <Button id="button" layoutX="489.0" layoutY="214.0" onAction="#nineteen" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="117.0" prefWidth="24.0" styleClass="first, id" text="">
+      <effect>
+        <Lighting>
+          <bumpInput>
+            <Shadow />
+          </bumpInput>
+          <light>
+            <javafx.scene.effect.Light.Distant />
+          </light>
+        </Lighting>
+      </effect>
+      <stylesheets>
+        <URL value="file:/D:/netbeans/instrument/src/instrument/main.css" />
+        <URL value="file:/D:/netbeans/Piano/src/piano/MainCss.css" />
+      </stylesheets>
+    </Button>
+    <Button id="button" layoutX="529.0" layoutY="214.0" onAction="#twoOne" onKeyPressed="#keyOne" onKeyTyped="#keyOne" prefHeight="117.0" prefWidth="24.0" styleClass="first, id" text="">
+      <effect>
+        <Lighting>
+          <bumpInput>
+            <Shadow />
+          </bumpInput>
+          <light>
+            <javafx.scene.effect.Light.Distant />
+          </light>
+        </Lighting>
+      </effect>
+      <stylesheets>
+        <URL value="file:/D:/netbeans/instrument/src/instrument/main.css" />
+        <URL value="file:/D:/netbeans/Piano/src/piano/MainCss.css" />
+      </stylesheets>
+    </Button>
+    <Button id="button" layoutX="569.0" layoutY="214.0" onAction="#twoThree" onKeyPressed="#keyOne" prefHeight="117.0" prefWidth="24.0" styleClass="first, id" text="">
+      <effect>
+        <Lighting>
+          <bumpInput>
+            <Shadow />
+          </bumpInput>
+          <light>
+            <javafx.scene.effect.Light.Distant />
+          </light>
+        </Lighting>
+      </effect>
+      <stylesheets>
+        <URL value="file:/D:/netbeans/instrument/src/instrument/main.css" />
+        <URL value="file:/D:/netbeans/Piano/src/piano/MainCss.css" />
+      </stylesheets>
+    </Button>
+    <Pane layoutX="155.0" layoutY="39.0" prefHeight="143.0" prefWidth="386.0" styleClass="bg">
+      <children>
+        <Label fx:id="l1" layoutX="163.0" layoutY="27.0" prefHeight="70.9609375" prefWidth="149.0" text="">
+          <font>
+            <Font name="Arial Bold" size="25.0" />
+          </font>
+        </Label>
+      </children>
+      <effect>
+        <InnerShadow />
+      </effect>
+      <stylesheets>
+        <URL value="file:/D:/netbeans/Piano/src/piano/MainCss.css" />
+      </stylesheets>
+    </Pane>
+    <ImageView fitHeight="200.0" fitWidth="148.80065812948112" layoutX="4.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="file:/C:/Users/ADMIN/Desktop/wallpaper/piano.jpg" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="mv" fitHeight="48.0" fitWidth="62.24332275390625" layoutX="561.0" layoutY="40.0" onMouseClicked="#imageview" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <Reflection>
+          <input>
+            <Glow level="1.0" />
+          </input>
+        </Reflection>
+      </effect>
+      <image>
+        <Image url="@trumpet.jpg" />
+      </image>
+    </ImageView>
+  </children>
+  <effect>
+    <Reflection>
+      <input>
+        <DropShadow>
+          <input>
+            <InnerShadow />
+          </input>
+        </DropShadow>
+      </input>
+    </Reflection>
+  </effect>
+  <stylesheets>
+    <URL value="@MainCss.css" />
+  </stylesheets>
+</AnchorPane>

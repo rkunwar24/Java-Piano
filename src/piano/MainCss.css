@@ -1,0 +1,19 @@
+.id{
+    -fx-background-color: black;
+}
+.white{
+    
+    -fx-background-color: white;
+}
+.bg{
+    
+    -fx-background-color: orange;
+}
+.back{
+    
+    -fx-background-color: cadetblue;
+}
+.image{
+    
+    -fx-background-image: url("logo.jpg");
+}
